@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fly Through Overseas - Study Medicine in Georgia. 11+ university options, clinical experience, 24/7 student support & admission guidance.">
+    <meta name="keywords" content="Study Medicine Georgia, MBBS Abroad, Medical Universities, Overseas Education">
+    <meta property="og:title" content="Fly Through Overseas - Your Medical Journey Starts in Georgia">
+    <meta property="og:description" content="Complete medical education guidance from university selection to arrival support.">
+    <meta property="og:image" content="/assets/og-image.jpg">
+    
+    <title>Fly Through Overseas | Study Medicine in Georgia</title>
+    
+    <style>
+        :root {
+            --primary: #172554;
+            --primary-dark: #0f172a;
+            --accent: #2563eb;
+            --accent-light: #60a5fa;
+            --text: #1f2937;
+            --text-muted: #6b7280;
+            --bg-light: #f8fafc;
+            --border: #e5e7eb;
+            --white: #ffffff;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            color: var(--text);
+            background: var(--white);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* ============================================
+           HEADER
+        ============================================ */
+
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            padding: 12px 0;
+        }
+
+        .header-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 70px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-weight: 900;
+            font-size: 18px;
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .logo-mark {
+            width: 36px;
+            height: 36px;
+            background: linear-gradient(135deg, var(--primary-dark), var(--accent));
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--white);
+            font-size: 11px;
+            font-weight: 900;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+            align-items: center;
+        }
+
+        .nav-links a {
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--text-muted);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: var(--accent);
+        }
+
+        .cta-btn {
+            padding: 10px 18px;
+            background: var(--accent);
+            color: var(--white) !important;
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: 700;
+            transition: all 0.3s;
+        }
+
+        .cta-btn:hover {
+            background: #1d4ed8;
+            transform: translateY(-2px);
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+        }
+
+        /* ============================================
+           HERO SECTION
+        ============================================ */
+
+        .hero {
+            margin-top: 70px;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+            background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 50%, var(--accent) 100%);
+            padding: 60px 24px;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            width: 800px;
+            height: 800px;
+            background: radial-gradient(circle, rgba(96, 165, 250, 0.15) 0%, transparent 70%);
+            border-radius: 50%;
+            top: -300px;
+            right: -200px;
+            animation: pulse 8s ease-in-out infinite;
+        }
+
+        .hero::after {
+            content: '';
+            position: absolute;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(147, 197, 253, 0.1) 0%, transparent 70%);
+            border-radius: 50%;
+            bottom: -200px;
+            left: -150px;
+            animation: pulse 10s ease-in-out infinite reverse;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+
+        .hero-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 2;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .hero-text {
+            color: var(--white);
+        }
+
+        .hero-badge {
+            display: inline-block;
+            padding: 9px 16px;
+            background: rgba(255, 255, 255, 0.12);
+            border: 1px solid rgba(255, 255, 255, 0.25);
+            border-radius: 50px;
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+            backdrop-filter: blur(10px);
+        }
+
+        .hero h1 {
+            font-size: clamp(42px, 7vw, 64px);
+            line-height: 1.1;
+            margin-bottom: 20px;
+            letter-spacing: -1px;
+            font-weight: 900;
+        }
+
+        .hero h1 .cyan {
+            color: #93c5fd;
+        }
+
+        .hero p {
+            font-size: 17px;
+            line-height: 1.7;
+            color: #dbeafe;
+            margin-bottom: 30px;
+            max-width: 600px;
+        }
+
+        .hero-ctas {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+        }
+
+        .btn {
+            padding: 14px 28px;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 14px;
+            text-decoration: none;
+            transition: all 0.3s;
+            display: inline-block;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn-primary {
+            background: var(--white);
+            color: var(--primary);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: var(--white);
+            border: 2px solid var(--white);
+        }
+
+        .btn-secondary:hover {
+            background: var(--white);
+            color: var(--primary);
+        }
+
+        .hero-stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            max-width: 500px;
+        }
+
+        .stat {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 28px;
+            font-weight: 900;
+            margin-bottom: 5px;
+        }
+
+        .stat-label {
+            font-size: 11px;
+            color: #dbeafe;
+            font-weight: 600;
+        }
+
+        .hero-image {
+            position: relative;
+            height: 500px;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.3);
+        }
+
+        .hero-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            animation: slowZoom 6s ease-in-out infinite;
+        }
+
+        @keyframes slowZoom {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+
+        .hero-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 24px;
+            background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+            color: var(--white);
+        }
+
+        .hero-overlay strong {
+            display: block;
+            font-size: 16px;
+            margin-bottom: 4px;
+        }
+
+        .hero-overlay span {
+            font-size: 12px;
+            color: #dbeafe;
+        }
+
+        @media (max-width: 768px) {
+            .hero-inner {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+            .hero-image {
+                height: 350px;
+            }
+            .hero-ctas {
+                flex-direction: column;
+            }
+            .btn {
+                width: 100%;
+                text-align: center;
+            }
+            .hero-stats {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* ============================================
+           SECTION STYLES
+        ============================================ */
+
+        section {
+            padding: 80px 24px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-header {
+            text-align: center;
+            max-width: 700px;
+            margin: 0 auto 60px;
+        }
+
+        .label {
+            color: var(--accent);
+            font-size: 11px;
+            font-weight: 900;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 12px;
+            display: inline-block;
+        }
+
+        .section-header h2 {
+            font-size: clamp(32px, 5vw, 48px);
+            line-height: 1.2;
+            margin-bottom: 15px;
+            color: var(--primary);
+        }
+
+        .section-header h2 .blue {
+            color: var(--accent);
+        }
+
+        .section-header p {
+            color: var(--text-muted);
+            font-size: 16px;
+            line-height: 1.7;
+        }
+
+        /* ============================================
+           TRUST SECTION
+        ============================================ */
+
+        .trust {
+            background: var(--bg-light);
+        }
+
+        .trust-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+            margin-top: 50px;
+        }
+
+        .trust-item {
+            text-align: center;
+        }
+
+        .trust-item h3 {
+            font-size: 24px;
+            font-weight: 900;
+            color: var(--accent);
+            margin-bottom: 8px;
+        }
+
+        .trust-item p {
+            color: var(--text-muted);
+            font-size: 13px;
+        }
+
+        @media (max-width: 768px) {
+            .trust-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        /* ============================================
+           WHY FTO SECTION
+        ============================================ */
+
+        .why-fto {
+            background: var(--white);
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 50px;
+        }
+
+        .feature-card {
+            background: var(--white);
+            padding: 32px;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            transition: all 0.3s;
+            animation: fadeInUp 0.6s ease both;
+        }
+
+        .feature-card:nth-child(1) { animation-delay: 0.1s; }
+        .feature-card:nth-child(2) { animation-delay: 0.2s; }
+        .feature-card:nth-child(3) { animation-delay: 0.3s; }
+        .feature-card:nth-child(4) { animation-delay: 0.4s; }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .feature-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+            border-color: var(--accent);
+        }
+
+        .feature-icon {
+            font-size: 36px;
+            margin-bottom: 15px;
+        }
+
+        .feature-card h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: var(--primary);
+        }
+
+        .feature-card p {
+            color: var(--text-muted);
+            font-size: 14px;
+            line-height: 1.7;
+        }
+
+        /* ============================================
+           UNIVERSITIES SECTION
+        ============================================ */
+
+        .universities {
+            background: var(--bg-light);
+        }
+
+        .uni-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 24px;
+            margin-top: 50px;
+        }
+
+        .uni-card {
+            background: var(--white);
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid var(--border);
+            transition: all 0.3s;
+        }
+
+        .uni-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+            border-color: var(--accent);
+        }
+
+        .uni-card-image {
+            width: 100%;
+            height: 200px;
+            background: linear-gradient(135deg, #eff6ff, #dbeafe);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 48px;
+        }
+
+        .uni-card-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .uni-card-content {
+            padding: 24px;
+        }
+
+        .uni-card h3 {
+            font-size: 16px;
+            margin-bottom: 8px;
+            color: var(--primary);
+            font-weight: 700;
+        }
+
+        .uni-card p {
+            color: var(--text-muted);
+            font-size: 13px;
+            line-height: 1.6;
+            margin-bottom: 16px;
+        }
+
+        .uni-card a {
+            color: var(--accent);
+            font-size: 12px;
+            font-weight: 700;
+            transition: color 0.3s;
+        }
+
+        .uni-card a:hover {
+            color: #1d4ed8;
+        }
+
+        /* ============================================
+           PROCESS SECTION
+        ============================================ */
+
+        .process {
+            background: linear-gradient(135deg, var(--primary-dark), var(--primary));
+            color: var(--white);
+        }
+
+        .process .section-header {
+            color: var(--white);
+        }
+
+        .process .label {
+            color: #60a5fa;
+        }
+
+        .process .section-header h2 {
+            color: var(--white);
+        }
+
+        .process .section-header p {
+            color: #dbeafe;
+        }
+
+        .steps-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 16px;
+            margin-top: 50px;
+        }
+
+        .step {
+            padding: 24px;
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: 12px;
+            text-align: center;
+            transition: all 0.3s;
+        }
+
+        .step:hover {
+            background: rgba(255, 255, 255, 0.12);
+            transform: translateY(-4px);
+        }
+
+        .step-number {
+            width: 40px;
+            height: 40px;
+            background: var(--white);
+            color: var(--accent);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 900;
+            margin: 0 auto 12px;
+        }
+
+        .step h3 {
+            font-size: 15px;
+            margin-bottom: 6px;
+            font-weight: 700;
+        }
+
+        .step p {
+            font-size: 12px;
+            color: #dbeafe;
+            line-height: 1.5;
+        }
+
+        /* ============================================
+           CTA SECTION
+        ============================================ */
+
+        .cta {
+            background: linear-gradient(135deg, var(--accent), var(--primary));
+            color: var(--white);
+            text-align: center;
+            padding: 80px 24px;
+            border-radius: 16px;
+            margin: 80px auto;
+            max-width: 900px;
+        }
+
+        .cta h2 {
+            font-size: clamp(28px, 5vw, 42px);
+            margin-bottom: 15px;
+            line-height: 1.2;
+        }
+
+        .cta p {
+            font-size: 16px;
+            color: #dbeafe;
+            margin-bottom: 30px;
+            line-height: 1.7;
+        }
+
+        /* ============================================
+           FOOTER
+        ============================================ */
+
+        footer {
+            background: var(--primary-dark);
+            color: #94a3b8;
+            padding: 60px 24px 25px;
+            font-size: 13px;
+        }
+
+        .footer-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+
+        .footer-col h4 {
+            color: var(--white);
+            margin-bottom: 12px;
+            font-size: 13px;
+            font-weight: 700;
+        }
+
+        .footer-col p {
+            margin-bottom: 8px;
+            line-height: 1.5;
+        }
+
+        .footer-col a {
+            display: block;
+            margin: 6px 0;
+            color: #94a3b8;
+            transition: color 0.3s;
+        }
+
+        .footer-col a:hover {
+            color: var(--white);
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding-top: 20px;
+            text-align: center;
+        }
+
+        /* ============================================
+           UTILITIES
+        ============================================ */
+
+        .text-center {
+            text-align: center;
+        }
+
+        @media (max-width: 640px) {
+            section {
+                padding: 60px 16px;
+            }
+
+            .section-header {
+                margin-bottom: 40px;
+            }
+
+            .section-header h2 {
+                font-size: 28px;
+            }
+
+            .features-grid,
+            .uni-grid,
+            .steps-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+    <div class="header-inner">
+        <a href="#" class="logo">
+            <div class="logo-mark">FTO</div>
+            <span>FTO Groups</span>
+        </a>
+        <nav class="nav-links">
+            <a href="#why-fto">Why FTO</a>
+            <a href="#universities">Universities</a>
+            <a href="#process">Process</a>
+            <a href="#contact">Contact</a>
+            <a href="#book" class="cta-btn">Book Counselling</a>
+        </nav>
+    </div>
+</header>
+
+<!-- HERO SECTION -->
+<section class="hero">
+    <div class="hero-inner">
+        <div class="hero-text">
+            <div class="hero-badge">🎓 STUDY MEDICINE IN GEORGIA</div>
+            
+            <h1>Your Medical Journey<br><span class="cyan">Starts in Georgia</span></h1>
+            
+            <p>Study Medicine in Georgia with the right university, the right guidance, and support that stays with you beyond admission. Fly Through Overseas helps aspiring medical students navigate every step of their journey.</p>
+            
+            <div class="hero-ctas">
+                <a href="#book" class="btn btn-primary">Explore Universities</a>
+                <a href="#contact" class="btn btn-secondary">Talk to Counsellor</a>
+            </div>
+
+            <div class="hero-stats">
+                <div class="stat">
+                    <div class="stat-number">11+</div>
+                    <div class="stat-label">University Options</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">Student Support</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">360°</div>
+                    <div class="stat-label">Admission Assistance</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img src="/assets/tbilisi-old-town.webp" alt="Tbilisi Medical Education">
+            <div class="hero-overlay">
+                <strong>11+ University Options</strong>
+                <span>Clinical Experience · Complete Guidance</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- TRUST SECTION -->
+<section class="trust">
+    <div class="container">
+        <h2 class="text-center" style="margin-bottom: 40px; color: var(--primary);">More Than an Admission.<br>A Complete Medical Journey.</h2>
+        <div class="trust-grid">
+            <div class="trust-item">
+                <h3>11+</h3>
+                <p>Partner University Options</p>
+            </div>
+            <div class="trust-item">
+                <h3>24/7</h3>
+                <p>Student Support</p>
+            </div>
+            <div class="trust-item">
+                <h3>360°</h3>
+                <p>Admission Assistance</p>
+            </div>
+            <div class="trust-item">
+                <h3>GEORGIA</h3>
+                <p>Medical Education Destination</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- WHY FTO SECTION -->
+<section class="why-fto" id="why-fto">
+    <div class="container">
+        <div class="section-header">
+            <span class="label">Why Choose FTO</span>
+            <h2>Choosing a University<br>is Only the Beginning</h2>
+            <p>At Fly Through Overseas, we focus on the journey beyond the application form. Thousands of students search for medical universities every year. The difficult part is knowing which university fits your goals, budget, and future plans.</p>
+        </div>
+
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">🎓</div>
+                <h3>University Selection</h3>
+                <p>Compare your available medical university options based on your academic profile, preferences, budget, and long-term plans.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">📋</div>
+                <h3>Admission Guidance</h3>
+                <p>From your first counselling session to application submission, our team guides you through each stage.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">🏥</div>
+                <h3>Clinical Experience</h3>
+                <p>Explore opportunities for clinical observership experiences in India during suitable vacation periods.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">✈️</div>
+                <h3>Visa & Pre-Departure</h3>
+                <p>Get structured assistance with documentation, visa preparation, and pre-departure processes.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- UNIVERSITIES SECTION -->
+<section class="universities" id="universities">
+    <div class="container">
+        <div class="section-header">
+            <span class="label">University Network</span>
+            <h2>Study at Premium<br><span class="blue">Medical Universities</span></h2>
+            <p>Access to 11+ leading medical universities in Georgia with English-medium programs. Compare options and choose what fits you best.</p>
+        </div>
+
+        <div class="uni-grid">
+            <div class="uni-card">
+                <div class="uni-card-image">
+                    <img src="/assets/universities/tsmu.jpg" alt="TSMU">
+                </div>
+                <div class="uni-card-content">
+                    <h3>Tbilisi State Medical University</h3>
+                    <p>A major medical university with established medical education environment.</p>
+                    <a href="#">View University →</a>
+                </div>
+            </div>
+
+            <div class="uni-card">
+                <div class="uni-card-image">
+                    <img src="/assets/universities/alte.webp" alt="Alte University">
+                </div>
+                <div class="uni-card-content">
+                    <h3>Alte University</h3>
+                    <p>A modern university environment offering medical education for international students.</p>
+                    <a href="#">View University →</a>
+                </div>
+            </div>
+
+            <div class="uni-card">
+                <div class="uni-card-image">
+                    <img src="/assets/universities/ug.jpg" alt="University of Georgia">
+                </div>
+                <div class="uni-card-content">
+                    <h3>University of Georgia</h3>
+                    <p>Established university with an international student community and medical opportunities.</p>
+                    <a href="#">View University →</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PROCESS SECTION -->
+<section class="process" id="process">
+    <div class="container">
+        <div class="section-header">
+            <span class="label">Your Journey</span>
+            <h2>From Your First Counselling<br>To Your Life in Georgia</h2>
+            <p>A simple, organized pathway from choosing a university to beginning your studies.</p>
+        </div>
+
+        <div class="steps-grid">
+            <div class="step">
+                <div class="step-number">1</div>
+                <h3>Understand</h3>
+                <p>Tell us your background and goals</p>
+            </div>
+
+            <div class="step">
+                <div class="step-number">2</div>
+                <h3>Compare</h3>
+                <p>Explore suitable universities</p>
+            </div>
+
+            <div class="step">
+                <div class="step-number">3</div>
+                <h3>Apply</h3>
+                <p>Prepare with our guidance</p>
+            </div>
+
+            <div class="step">
+                <div class="step-number">4</div>
+                <h3>Admit</h3>
+                <p>Receive your admission</p>
+            </div>
+
+            <div class="step">
+                <div class="step-number">5</div>
+                <h3>Prepare</h3>
+                <p>Work through visa & travel</p>
+            </div>
+
+            <div class="step">
+                <div class="step-number">6</div>
+                <h3>Arrive</h3>
+                <p>Begin with continued support</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA SECTION -->
+<section class="container">
+    <div class="cta" id="book">
+        <h2>Your Future in Medicine<br>Deserves the Right Start</h2>
+        <p>Choose your university with confidence. Start your medical journey with Fly Through Overseas.</p>
+        <a href="#contact" class="btn btn-primary">Talk to an Expert</a>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <div class="footer-inner">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>FLY THROUGH OVERSEAS</h4>
+                <p>Your Medical Journey. Starts in Georgia.</p>
+                <p>Medical education counselling and student support for aspiring international medical students.</p>
+            </div>
+
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <a href="#why-fto">Why FTO</a>
+                <a href="#universities">Universities</a>
+                <a href="#process">Process</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div class="footer-col">
+                <h4>Services</h4>
+                <a href="#">University Selection</a>
+                <a href="#">Admission Assistance</a>
+                <a href="#">Visa Guidance</a>
+                <a href="#">Student Support</a>
+            </div>
+
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <p>Email: hello@flythroughoverseas.in</p>
+                <p>WhatsApp: +91 9884902516</p>
+                <p>Available 24/7 for student support</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 FTO Groups. All rights reserved. | <a href="#" style="color: #94a3b8;">Privacy Policy</a> | <a href="#" style="color: #94a3b8;">Terms of Service</a></p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
